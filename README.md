@@ -22,3 +22,6 @@ Using inheritencem, the SavingsAccount class extends the BankAccount class and a
 
 ## Bank Class
 Uses an array to store BankAccount instances and provides methods to create new accounts, retrieve accounts by index, get all accounts, close accounts, transfer funds, and calculate the total balance of all accounts.
+
+## TransferBankAccount Class
+Using inheritence, extends the BankAccount class and transfers funds between accounts. 
