@@ -2,7 +2,7 @@ import IBankAccount from './IBankAccount';
 
 export default class BankAccount implements IBankAccount {
   // Private variable to store the balance of the account
-  private balance: number;
+  public balance: number;
 
   // Constructor to initialize the balance of the account
   constructor(balance: number) {
