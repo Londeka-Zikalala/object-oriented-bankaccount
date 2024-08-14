@@ -9,9 +9,15 @@ This project is bank account management system in TypeScript. It includes a `Ban
 - `./SavingsAccount.ts`: Contains the implementation of the SavingsAccount class.
 - `./Bank.ts`: Contains the implementation of the Bank class.
 - `./IBank.ts`: Contains the IBank interface.
-- `test/BankAccount.test.ts`: Contains unit tests for the BankAccount class.
-- `test/SavingsAccount.test.ts`: Contains unit tests for the SavingsAccount class.
-- `test/Bank.test.ts`: Contains unit tests for the Bank class.
+- `./ISavingsAccount.ts`: Contains the ISavingsAcount interface
+- `./IBankAccount.ts`: Contains the BankAccount interface 
+- `/ITranferable.ts` : Contains the ITransferable interface
+- `./ITransferResult.ts`: Contains the transferResult method interface
+- `./TransferBankAccount`: Contains the implementation of ITransferable
+- `./test/TransferBankAccount.test.ts`: Contains unit tests for TransferBankAccount class
+- `./test/BankAccount.test.ts`: Contains unit tests for the BankAccount class.
+- `./test/SavingsAccount.test.ts`: Contains unit tests for the SavingsAccount class.
+- `./test/Bank.test.ts`: Contains unit tests for the Bank class.
 
 # Implementation Details
 ## BankAccount Class
